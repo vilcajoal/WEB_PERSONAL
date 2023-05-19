@@ -2,16 +2,16 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Joel Vilca Tarazona",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Soy un apasionado por los datos desarrollando flujos EndToEnd en bacth y tiempo real para aportar valor a las empresas en la toma de desiciones.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Joel Vilca Tarazona Portafolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -19,15 +19,15 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Joel Vilca Tarazona",
+  logo_name: "Joel Vilca",
+  nickname: "shaka",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Soy un apasionado por los datos desarrollando flujos EndToEnd en bacth y tiempo real para aportar valor a las empresas en la toma de desiciones.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://www.linkedin.com/in/joelvilca/",
+  portfolio_repository: "https://github.com/vilcajoal/WEB_PERSONAL",
+  githubProfile: "https://github.com/vilcajoal",
 };
 
 const socialMediaLinks = [
@@ -42,43 +42,43 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/vilcajoal",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/joelvilca/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
+    link: "https://www.youtube.com/channel/UCAQ_2zUd5UKz0FTdsY9y5og",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:joel.vilca1@unmsm.edu.pe",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://twitter.com/vilca_tarazona",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/vilcajoal/",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/vilcajoal/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -90,9 +90,9 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Desarrollo de modelos listos para producción altamente escalables para varios casos de uso estadístico y de aprendizaje profundo",
+        "⚡ Experiencia de trabajo con proyectos de Visión por Computador y PNL",
+        "⚡ Desarrollo de procesos ETL en batch y tiempo real",
       ],
       softwareSkills: [
         {
@@ -131,6 +131,7 @@ const skills = {
         },
       ],
     },
+    /*
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
@@ -212,15 +213,15 @@ const skills = {
           },
         },
       ],
-    },
+    },*/
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Experiencia trabajando en múltiples plataformas en la nube",
+        "⚡ Creación de reportes en Power BI. Locker, tableau",
+        "⚡ Implementación de modelos de aprendizaje profundo en la nube para usar en dispositivos WEB",
+        "⚡ Configuración de trabajos de transmisión de Bases de datos a servidor o viceversa en GCP y AWS",
       ],
       softwareSkills: [
         {
@@ -280,7 +281,7 @@ const skills = {
           },
         },
       ],
-    },
+    }/*,
     {
       title: "UI/UX Design",
       fileName: "DesignImg",
@@ -319,7 +320,7 @@ const skills = {
           },
         },
       ],
-    },
+    }*/,
   ],
 };
 
@@ -332,7 +333,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "https://leetcode.com/joelvilcatarazona/",
     },
     {
       siteName: "HackerRank",
@@ -340,7 +341,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "https://www.hackerrank.com/joel_vilca1",
     },
     {
       siteName: "Codechef",
@@ -348,9 +349,9 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+      profileLink: "https://www.codechef.com/users/joelvilca1",
     },
-    {
+    /*{
       siteName: "Codeforces",
       iconifyClassname: "simple-icons:codeforces",
       style: {
@@ -365,14 +366,14 @@ const competitiveSites = {
         color: "#323754",
       },
       profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
+    },*/
     {
       siteName: "Kaggle",
       iconifyClassname: "simple-icons:kaggle",
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.kaggle.com/vilcajoal",
     },
   ],
 };
@@ -380,30 +381,30 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title: "Universidad Nacional Mayor de San Marcos",
+      subtitle: "Ingeniería de Software",
+      logo_path: "UNMSM.png",
+      alt_name: "UNMSM",
+      duration: "2018 - 2023",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ He estudiado temas básicos de ingeniería de software como DS, Algoritmos, DBMS, OS, CA, AI, etc.",
+        "⚡ Aparte de esto, he realizado cursos de Deep Learning, Data Science, Cloud Computing y Full Stack Development.",
+        "⚡ Miembro del Grupo de Investigación en Inteligencia Artificial de San Marcos, AIRU, parte del grupo ITDATA-UNMSM.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://unmsm.edu.pe/",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      title: "Universidad de Buenos Aires",
+      subtitle: "Programa de Formación Multidisciplinario de Inteligencia Artificial",
+      logo_path: "UBA.png",
+      alt_name: "Universidad de Buenos Aires",
+      duration: "2021 - 2022",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ He tomado una variedad de cursos relacionados con la Inteligencia Artificial que corresponden a IA Explicable, Aprendizaje de Máquinas Gráficas, Visión por Computador, etc.",
+        "⚡ Aprendí los conceptos principales, la normativa aplicable y las herramientas necesarias para desarrollar la estrategia de Gobierno del Datos",
+        "⚡ Implementé diferentes métodos, técnicas y despliegues de las soluciones de IA aplicandolo en un caso de negocio",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://www.uba.ar/#/",
     },
   ],
 };
@@ -523,51 +524,66 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  title: "Experiencia",
+  subtitle: "Trabajo, Prácticas y Voluntariado",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+  "He trabajado con empresas en evolución como ingeniero de datos y arquitecto de datos aplicando ML y DL. Me encanta organizar eventos y es por eso que también participo en muchas comunidades de datos abiertos como miembro y coordinador.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Trabajos Profesionales",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Data Engineer",
+          company: "Ransa Comercial",
+          company_url: "https://www.ransa.biz/quienes-somos/#",
+          logo_path: "ransa.png",
+          duration: "Jun 2022 - Actualidad",
+          location: "Lima - Perú",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+          [
+            "⚡ Diseño de aplicaciones de datos para recopilar, almacenar y analizar datos para Data Scientist y Data Analyst.",
+            "⚡ Crear nuevos métodos de validación de datos y herramientas de análisis de datos.",
+            "⚡ Identificar, diseñar e implementar mejoras de procesos internos para automatizar procesos manuales, optimizar la entrega de datos, rediseñar la infraestructura para una mayor escalabilidad, etc.",
+          ], 
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "Practicante Data Engineer",
+          company: "Ransa Comercial",
+          company_url: "https://www.ransa.biz/quienes-somos/#",
+          logo_path: "ransa.png",
+          duration: "Dic 2021 - Jun 2022",
+          location: "Lima - Perú",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "Soporte en proyectos junto al equipo de Data Analytics, Soporte en la plataforma Power BI en la captura de información a través del conector de bigquery y modelamiento de datos,  Soporte a las integraciones de procesos ETL /ELT y Soporte de flujos de trabajo en Python en procesamiento de datos a través de código sin servidor.",
           color: "#9b1578",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          title: "Instructor de programación",
+          company: "Algorithmics Perú",
+          company_url: "https://algorithmicsperu.com/",
+          logo_path: "algoritmics.png",
+          duration: "Sep 2021 - Sep 2022",
+          location: "Lima - Perú",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+            "Dictado del curso Python Start, Python Pro y Dictado del curso Diseño de Videojuegos con Roblox Studio",
+          color: "#fc1f20",
+        },
+        {
+          title: "Profesor de matemáticas",
+          company: "Grupo San Marcos",
+          company_url: "https://gruposanmarcos.edu.pe/",
+          logo_path: "gsm.png",
+          duration: "Nov 2019 - Abr 2020",
+          location: "Lima - Perú",
+          description:
+            "Dictado de clases a alumnos preuniversitarios, Preparación de clases, Corrección de exámenes, evaluaciones y prácticas, Seguimiento y soporte a estudiantes.",
           color: "#fc1f20",
         },
       ],
     },
-    {
+    /*{
       title: "Internships",
       experiences: [
         {
@@ -605,66 +621,55 @@ const experience = {
           color: "#0071C5",
         },
       ],
-    },
+    },*/
     {
-      title: "Volunteerships",
+      title: "Voluntariado",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          title: "Miembro de investigación en inteligencia artificial",
+          company: "AIRU",
+          company_url: "https://www.linkedin.com/company/artificialintelligenceresearchunmsm/?viewAsMember=true",
+          logo_path: "airu.png",
+          duration: "Set 2020 - Jun 2022",
+          location: "Lima - Perú",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+            " Investigación de los principales algoritmos de Machine Learning (Regresión, clasificación, Clustering) y Deep Learning (RNA, RNC, RNR) en Python, Consolidación de alianza y certificaciones con las universidades Oxford Collegue of Engineering y Amity School of Engineering de la India.",
           color: "#4285F4",
         },
         {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
+          title: "Miembro de Presidencia Área de mejora continua",
+          company: "Proyectos SM",
+          company_url: "https://www.linkedin.com/company/proyectossm/",
+          logo_path: "psm.png",
+          duration: "Ene 2021 - Jun 2021",
+          location: "Lima - Perú",
           description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+            "Ciencia y tecnología",
           color: "#D83B01",
         },
         {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
+          title: "Miembro de Dirección de Logística Virtual",
+          company: "CINEA",
+          company_url: "https://www.linkedin.com/company/cinealatam/",
+          logo_path: "cinea.png",
+          duration: "Nov 2020 - Abr 2021 ",
+          location: "Lima - Perú",
           description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
+            "Ciencia y tecnología",
           color: "#000000",
         },
         {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
+          title: "Voluntario Educación",
+          company: "Crea+ Perú",
           company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
+            "https://www.linkedin.com/company/crea-per%C3%BA/",
+          logo_path: "creamas.png",
+          duration: "Oct 2020 - Ene 2021",
+          location: "Lima - Perú",
           description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
+            "Educación",
           color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
-        },
+        }
       ],
     },
   ],
@@ -672,16 +677,16 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Proyectos",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Mis proyectos hacen uso de una gran variedad de herramientas de última tecnología. Mi mejor experiencia es crear proyectos de ciencia de datos e implementarlos en aplicaciones web utilizando infraestructura en la nube.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
-  title: "Publications",
+  title: "Publicaciones",
   description:
-    "I have worked on and published a few research papers and publications of my own.",
+    "He trabajado y publicado algunos trabajos de investigación y publicaciones propias.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -733,24 +738,24 @@ const publications = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    title: "Contáctame",
+    profile_image_path: "google.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Estoy disponible en casi todas las redes sociales. Puede enviarme un mensaje, le responderé dentro de las 24 horas. Puedo ayudarte con ML, AI, GCP, Big Data en Cloud, y Opensource Development.",
   },
   blogSection: {
-    title: "Blogs",
+    title: "Blog",
     subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
+      "Estoy documentando mis aprendizajes en mi Blog.",
+    link: "https://vilcajoal.hashnode.dev/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
+    title: "Dirección",
     subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+      "Lima - Perú",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://goo.gl/maps/Yw5go7kmMjsUs3uVA",
   },
   phoneSection: {
     title: "",
