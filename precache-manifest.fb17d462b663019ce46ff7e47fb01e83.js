@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ea1350f45b6de75bb45eb28e25c7741",
+    "revision": "4c7ef1350e2329cbe33feee128c351fa",
     "url": "./index.html"
   },
   {
-    "revision": "74a13cfa4519c474f03c",
+    "revision": "0f6d5ec068a1ef707803",
     "url": "./static/css/main.0664b09c.chunk.css"
   },
   {
-    "revision": "ae4bee4fe9918e4b603c",
-    "url": "./static/js/2.4f43fd5e.chunk.js"
+    "revision": "b1d21217a28a5d08acaa",
+    "url": "./static/js/2.9bbef7f0.chunk.js"
   },
   {
-    "revision": "74a13cfa4519c474f03c",
-    "url": "./static/js/main.494a7398.chunk.js"
+    "revision": "0f6d5ec068a1ef707803",
+    "url": "./static/js/main.33634c36.chunk.js"
   },
   {
     "revision": "1a27038c5115d044f6f9",
@@ -194,6 +194,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a6addc3fb6605480614b992ede8cd434",
     "url": "./static/media/googleAssistant.a6addc3f.svg"
+  },
+  {
+    "revision": "282dc85720421066e6808a41b144d70f",
+    "url": "./static/media/google_foto.282dc857.jpg"
   },
   {
     "revision": "d3fccbe1db76b96f4f320d9c0f7da30c",
