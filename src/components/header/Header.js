@@ -12,7 +12,7 @@ const onMouseEnter = (event, color) => {
 
 const onMouseOut = (event) => {
   const el = event.target;
-  el.style.backgroundColor = "transparent";
+  el.style.backgroundColor = "transparent"; 
 };
 
 class Header extends Component {
